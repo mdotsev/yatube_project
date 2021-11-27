@@ -20,6 +20,8 @@ parts/
 sdist/
 var/
 wheels/
+.vscode/
+venv/
 pip-wheel-metadata/
 share/python-wheels/
 *.egg-info/
@@ -127,3 +129,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.vscode
