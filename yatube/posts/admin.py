@@ -16,7 +16,7 @@ class PostAdmin(admin.ModelAdmin):
 
 class GroupAdmin(admin.ModelAdmin):
     list_display = (
-        'text',
+        'title',
         'slug',
         'description',
         ) 

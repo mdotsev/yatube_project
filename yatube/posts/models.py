@@ -4,9 +4,12 @@ from django.contrib.auth import get_user_model
 User = get_user_model()
 
 class Group(models.Model):
-    text = models.TextField()
+    title = models.TextField()
     slug = models.SlugField()
     description = models.TextField()
+    def __str__(self):
+        return f'{self.title}'
+
 
 class Post(models.Model):
     text = models.TextField()
